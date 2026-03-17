@@ -1,0 +1,11 @@
+## 复可微和Cauchy--Riemann条件
+
+（1） 我们称$f:\dis{z_{0},r}\ra\cc$在$z_{0}$处复可微（或复可导），\index{复可微，复可导}若以下极限存在：
+$$
+f^{\prime}\bb{z_{0}}\deff\lim_{\del z\ra0}\frac{f\bb{z_{0}+\Del z}-f\bb{z_{0}}}{\Del z}.
+$$
+$f^{\prime}\bb{z_{0}}$ 称为 $f$ 在 $z_{0}$ 处的导数。
+
+（2） 设$\Ome\sub\cc$为开集，若函数$f:\Ome\ra\cc$ 在$\Ome$中每一点处皆为复可微，则称$f$在$\Ome$上全纯\index{全纯}（也称解析）。$\Ome$
+上所有全纯函数构成的集合记为 $\cco\left(\Ome\right)$。称\index{ccoleft(Omeright)@$\cco\left(\Ome\right)$}$f$在一点
+$a$ 处全纯，如果 $f$ 在$a$的某个邻域上全纯。这样的函数全体记为 $\cco_{a}$。 

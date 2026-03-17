@@ -1,0 +1,34 @@
+## 复数
+
+这里是quarto的各种环境的演示：
+
+::: {.definition #def-complex-field} 
+**（复数域）**  
+复数域 $\cc$ 定义为有序实数对 $(a,b)$ 的集合，配备加法  
+$$(a,b)+(c,d)=(a+c,b+d)$$ {#eq-complex-add}
+与乘法  
+$$(a,b)\cdot(c,d)=(ac-bd,ad+bc).$$  {#eq-complex-mul}
+:::
+上述 @def-complex-field 是标准的。
+
+::: {.theorem #thm-complex-field}
+在运算(@eq-complex-add)和(@eq-complex-mul)下，$\mathbb{C}$ 构成一个域，其零元为 $(0,0)$，单位元为 $(1,0)$，并满足交换律、结合律及分配律。
+:::
+
+::: {.proof}
+回忆 域 的定义，验证上述运算满足所有域的性质。留作习题。
+:::
+
+::: {.corollary #cor-complex-field}
+复数域 $\mathbb{C}$ 中非零元素均可逆。
+:::
+
+::: {.example #exm-complex-field}
+由(@eq-complex-mul),计算 $(2+3i)(-1-4i)=(2-3i)(-1+4i)=-10+13i$。
+::: 
+::: {.example #exm-complex-field-2}
+由 @cor-complex-field,计算复数的逆元 $(2+3i)^{-1}=2-3i$。
+::: 
+::: {.exr #exr-complex-field-2}
+验证 $(2+3i)^{-1}=2-3i$。
+::: 

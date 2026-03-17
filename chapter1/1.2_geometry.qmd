@@ -1,0 +1,55 @@
+## 复平面的拓扑
+
+Mobius变换在一点处无定义，我们可以扩大复数域来补充定义。
+
+定义 $\hat{\cc}\deff\cc\cup\left\{ \infty\right\}$， 其中$\infty$是一个假想的无穷远点。
+
+Cayley 变换 $\chi(z)=\frac{z-\ii}{z+\ii}$ 可以补充定义
+$$
+\chi(-\ii)=\infty,\ \chi(\infty)=1
+$$
+后成为 $\hat{\cc}$ 到自身的双射。
+
+黎曼发现可以用二维球面
+$$
+S^{2}=\left\{ \left(x,y,z\right)\in\rr^{3}\mid x^{2}+y^{2}+z^{2}=1\right\} 
+$$              
+作为$\hat{\cc}$的几何模型。
+
+<展示课件：球极投影>
+
+还有一种几何模型：复射影直线
+$$
+\mathbb{P}^{1}=\left\{ \cc^{2}\text{中过原点的直线}\right\} =\left(\cc^{2}\backslash\left(0,0\right)\right)/\sim
+$$              
+其中等价关系$\text{～}$为向量相差一个数乘。用$[z:w]$表示向量$\left(z,w\right)$生成的直线，那么有
+$$
+[z:w]=[\lambda z:\lambda w],\ \forall\lambda\in\cc^{*}.
+$$
+若$w\neq0$，有$[z:w]=\left[z/w:1\right]$; 当$w=0$，则$[z:0]=[1:0]$。于是我们有双射
+$$      
+\mathbb{P}^{1}=\left\{ [z:1]\mid z\in\cc\right\} \cup\left\{ [1:0]\right\} \stackrel{\mathrm{1-1}}{\longrightarrow}\cc\cup\left\{ \infty\right\} =\hat{\cc}.
+$$              
+
+Mobius变换在$\mathbb{P}^{1}$上表现为线性变换：
+$$
+\left[\begin{array}{c}
+z\\
+w
+\end{array}\right]\mapsto\left[\begin{array}{cc}
+a & b\\
+c & d
+\end{array}\right]\left[\begin{array}{c}
+z\\
+w
+\end{array}\right]=\left[\begin{array}{c}
+az+bw\\
+cz+dw
+\end{array}\right].
+$$
+其对应到$\hat{\cc}$上的Mobius变换
+$$
+z\mapsto\frac{az+b}{cz+d}.
+$$
+
+

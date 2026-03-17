@@ -1,0 +1,42 @@
+project:
+  type: book
+  output-dir: docs
+
+lang: zh
+jupyter: python3
+
+book:
+  title: "湖南大学复变函数讲义"
+  author: "姚懿"
+  date: today
+  chapters:
+    - index.qmd
+    - chapter1/Chap1_index.qmd
+    - chapter2/Chap2_index.qmd
+
+format:
+  html:
+    theme: cosmo
+    toc: true
+    code-fold: true
+    html-math-method: mathjax
+    include-before-body: mathjax-preamble.html 
+  pdf:
+    documentclass: ctexbook
+    pdf-engine: xelatex
+    classoption: "fontset=fandol"
+    keep-tex: true
+    include-in-header: latex-preamble.tex 
+
+crossref:
+  chapters: true
+  fig-title: 图
+  tbl-title: 表
+  eq-prefix: ""
+  thm-title: 定理
+  lem-title: 引理
+  prp-title: 命题
+  cor-title: 推论
+  def-title: 定义
+  exm-title: 例
+  exr-title: 练习
