@@ -1,0 +1,18 @@
+# 忽略所有文件和目录
+*
+
+# 允许追踪（不忽略）目录结构，否则 Git 无法进入子目录寻找匹配的文件
+!*/
+
+# 允许追踪以下特定文件或文件类型
+!.gitignore
+!*.qmd
+!latex-preamble.tex
+!mathjax-preamble.html
+!README.md
+!*.lyx
+!_quarto.yml
+
+# 允许追踪整个 docs 目录及其所有内容
+!docs/
+!docs/**
