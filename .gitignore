@@ -16,3 +16,6 @@
 # 允许追踪整个 docs 目录及其所有内容
 !docs/
 !docs/**
+
+/.quarto/
+**/*.quarto_ipynb
